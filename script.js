@@ -41,7 +41,7 @@ async function getQuote() {
     quoteText.innerText = data.quoteText;
     removeLoadingSpinner();
   } catch (error) {
-    getQuote();
+    alert(`Oops something went wrong`);
   }
 }
 
